@@ -1,0 +1,14 @@
+.loader{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+}
+
+.wait-text{
+    position: absolute;
+    width: 100vw;
+    top: 55%;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}

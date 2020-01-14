@@ -3,6 +3,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./index.css"
 import {JoinActivity} from "./JoinActivity"
+import {WaitActivity} from "./WaitActivity"
 
 const wsUrl = "ws://localhost:8080/client"
 
@@ -52,6 +53,8 @@ class App extends Component {
     render() {
         if (this.state.activity === "JOIN") {
             return <JoinActivity onSubmit={this.submitName} errorText={this.state.joinBtnErrorText}/>
+        }else if (this.state.activity==="WAIT"){
+            return <WaitActivity/>
         }
         return <div/>
     }
