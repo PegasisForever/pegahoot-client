@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38db7156-430a-49bd-a2c7-f8bc9fed3a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WaitActivity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WaitActivity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinActivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaitActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaitActivity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +42,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/JoinActivity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -86,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578981219024</updated>
-      <workItem from="1578981221078" duration="4114000" />
+      <workItem from="1578981221078" duration="4159000" />
     </task>
     <task id="LOCAL-00001" summary="remove unused code">
       <created>1578981593839</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578983681316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add wait activity">
+      <created>1578985567838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578985567838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,17 +126,18 @@
     <MESSAGE value="remove unused code" />
     <MESSAGE value="add join activity" />
     <MESSAGE value="add submit name &amp; error text" />
-    <option name="LAST_COMMIT_MESSAGE" value="add submit name &amp; error text" />
+    <MESSAGE value="add wait activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add wait activity" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578985071148">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578985071148" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1578983681055">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1578985567346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578983681055" />
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578985567346" />
     <state width="1860" height="225" key="GridCell.Tab.0.bottom" timestamp="1578984820997">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,6 +1,6 @@
 import React from "react"
-import logo from "./pegahoot_logo.png"
-import "./JoinActivity.css"
+import logo from "../pegahoot_logo.png"
+import "../JoinActivity/JoinActivity.css"
 import "./loader.css"
 import "./WaitActivity.css"
 

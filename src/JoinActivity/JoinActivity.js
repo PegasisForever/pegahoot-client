@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import logo from "./pegahoot_logo.png"
+import logo from "../pegahoot_logo.png"
 import "./JoinActivity.css"
 
 export class JoinActivity extends Component {

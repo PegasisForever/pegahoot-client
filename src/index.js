@@ -2,8 +2,8 @@ import {Component} from "react"
 import React from "react"
 import ReactDOM from "react-dom"
 import "./index.css"
-import {JoinActivity} from "./JoinActivity"
-import {WaitActivity} from "./WaitActivity"
+import {JoinActivity} from "./JoinActivity/JoinActivity"
+import {WaitActivity} from "./WaitActivity/WaitActivity"
 
 const wsUrl = "ws://localhost:8080/client"
 
