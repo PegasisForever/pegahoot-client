@@ -20,7 +20,6 @@ class App extends Component {
 
         this.socket.onopen = function (event) {
             console.log("Socket connected")
-            // socket.send("My name is John");
         }
 
         this.socket.onmessage = function (event) {
@@ -39,11 +38,20 @@ class App extends Component {
         this.socket.onerror = function (error) {
             alert(`Socket error: ${error.message}`)
         }
+
+        this.submitName = this.submitName.bind(this)
+    }
+
+    submitName(name) {
+        this.socket.send(JSON.stringify({
+            "command": "join",
+            "name": name
+        }))
     }
 
     render() {
-        if (this.state.activity==="JOIN"){
-            return <JoinActivity users={this.state.users} startGame={this.startGame}/>
+        if (this.state.activity === "JOIN") {
+            return <JoinActivity onSubmit={this.submitName} errorText={this.state.joinBtnErrorText}/>
         }
         return <div/>
     }
