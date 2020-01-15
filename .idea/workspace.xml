@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38db7156-430a-49bd-a2c7-f8bc9fed3a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BottomBar/BottomBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BottomBar/BottomBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountDownActivity/CountDownActivity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountDownActivity/CountDownActivity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pegasis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -154,10 +153,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578985071148" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579054622761">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579056343808">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579054622761" />
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579056343808" />
     <state width="1860" height="166" key="GridCell.Tab.0.bottom" timestamp="1579053541531">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

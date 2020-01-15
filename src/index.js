@@ -6,6 +6,7 @@ import {JoinActivity} from "./JoinActivity/JoinActivity"
 import {WaitActivity} from "./WaitActivity/WaitActivity"
 import {CountDownActivity} from "./CountDownActivity/CountDownActivity"
 import {BottomBar} from "./BottomBar/BottomBar"
+import {GameActivity} from "./GameActivity/GameActivity"
 
 const wsUrl = "ws://localhost:8080/client"
 
@@ -64,6 +65,16 @@ class App extends Component {
                 <CountDownActivity
                     questionIndex={this.state.questionIndex}
                     countDownSeconds={this.state.countDownSeconds}/>
+                <BottomBar
+                    name={this.state.name}
+                    score={this.state.score}/>
+            </Fragment>
+        } else if (this.state.activity === "GAME") {
+            return <Fragment>
+                <GameActivity
+                    questionIndex={this.state.questionIndex}
+                    questionText={this.state.questionText}
+                    questionSentence={this.state.questionSentence}/>
                 <BottomBar
                     name={this.state.name}
                     score={this.state.score}/>
