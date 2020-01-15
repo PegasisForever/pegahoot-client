@@ -1,9 +1,11 @@
-import {Component} from "react"
+import {Component, Fragment} from "react"
 import React from "react"
 import ReactDOM from "react-dom"
 import "./index.css"
 import {JoinActivity} from "./JoinActivity/JoinActivity"
 import {WaitActivity} from "./WaitActivity/WaitActivity"
+import {CountDownActivity} from "./CountDownActivity/CountDownActivity"
+import {BottomBar} from "./BottomBar/BottomBar"
 
 const wsUrl = "ws://localhost:8080/client"
 
@@ -11,10 +13,10 @@ class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            "activity": "JOIN",
-            "name": null,
-            "joinBtnErrorText": null,
-            "score": null
+            activity: "JOIN",
+            name: null,
+            joinBtnErrorText: null,
+            score: null
         }
         this.socket = new WebSocket(wsUrl)
         let self = this
@@ -52,9 +54,20 @@ class App extends Component {
 
     render() {
         if (this.state.activity === "JOIN") {
-            return <JoinActivity onSubmit={this.submitName} errorText={this.state.joinBtnErrorText}/>
-        }else if (this.state.activity==="WAIT"){
+            return <JoinActivity
+                onSubmit={this.submitName}
+                errorText={this.state.joinBtnErrorText}/>
+        } else if (this.state.activity === "WAIT") {
             return <WaitActivity/>
+        } else if (this.state.activity === "COUNTDOWN") {
+            return <Fragment>
+                <CountDownActivity
+                    questionIndex={this.state.questionIndex}
+                    countDownSeconds={this.state.countDownSeconds}/>
+                <BottomBar
+                    name={this.state.name}
+                    score={this.state.score}/>
+            </Fragment>
         }
         return <div/>
     }
