@@ -7,6 +7,7 @@ import {WaitActivity} from "./WaitActivity/WaitActivity"
 import {CountDownActivity} from "./CountDownActivity/CountDownActivity"
 import {BottomBar} from "./BottomBar/BottomBar"
 import {GameActivity} from "./GameActivity/GameActivity"
+import {GameWaitActivity} from "./GameWaitActivity/GameWaitActivity"
 
 const wsUrl = "ws://localhost:8080/client"
 
@@ -85,6 +86,19 @@ class App extends Component {
                     questionText={this.state.questionText}
                     questionSentence={this.state.questionSentence}
                     onSubmit={this.submitAnswer}/>
+                <BottomBar
+                    name={this.state.name}
+                    score={this.state.score}/>
+            </Fragment>
+        } else if (this.state.activity === "GAMEWAIT") {
+            return <Fragment>
+                <GameWaitActivity
+                    questionIndex={this.state.questionIndex}
+                    isCorrect={this.state.isLastAnswerCorrect}
+                    rank={this.state.rank}
+                    followingUser={this.state.followingUser}
+                    scoreBehindFollowingUser={this.state.scoreBehindFollowingUser}
+                />
                 <BottomBar
                     name={this.state.name}
                     score={this.state.score}/>

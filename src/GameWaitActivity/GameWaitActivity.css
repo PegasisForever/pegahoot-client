@@ -1,0 +1,21 @@
+.question-number{
+    color: white;
+    position: fixed;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.correct-text{
+    padding-top: 40vh;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.info-div{
+    font-size: 20px;
+    margin-top: 16px;
+    color: white;
+    text-align: center;
+}

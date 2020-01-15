@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38db7156-430a-49bd-a2c7-f8bc9fed3a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GameWaitActivity/GameWaitActivity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameWaitActivity/GameWaitActivity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameActivity/GameActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
       <workItem from="1578981221078" duration="4402000" />
       <workItem from="1579024378187" duration="1669000" />
       <workItem from="1579049125495" duration="2988000" />
-      <workItem from="1579065898287" duration="276000" />
+      <workItem from="1579065898287" duration="2774000" />
     </task>
     <task id="LOCAL-00001" summary="remove unused code">
       <created>1578981593839</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579062530901</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed submit wring index">
+      <created>1579066240776</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579066240776</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,36 +177,41 @@
     <MESSAGE value="Add game activity, no submit" />
     <MESSAGE value="style changes" />
     <MESSAGE value="add submit callback" />
-    <option name="LAST_COMMIT_MESSAGE" value="add submit callback" />
+    <MESSAGE value="fixed submit wring index" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed submit wring index" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="502" y="149" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1579069949996">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="502" y="149" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579069949996" />
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578985071148">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578985071148" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579062530666">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579066240416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579062530666" />
-    <state width="1860" height="166" key="GridCell.Tab.0.bottom" timestamp="1579053541531">
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579066240416" />
+    <state width="1860" height="166" key="GridCell.Tab.0.bottom" timestamp="1579069805214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579025948428" />
-    <state width="1860" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579053541531" />
-    <state width="1860" height="166" key="GridCell.Tab.0.center" timestamp="1579053541531">
+    <state width="1860" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579069805214" />
+    <state width="1860" height="166" key="GridCell.Tab.0.center" timestamp="1579069805214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579025948426" />
-    <state width="1860" height="166" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579053541531" />
-    <state width="1860" height="166" key="GridCell.Tab.0.left" timestamp="1579053541531">
+    <state width="1860" height="166" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579069805214" />
+    <state width="1860" height="166" key="GridCell.Tab.0.left" timestamp="1579069805214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579025948425" />
-    <state width="1860" height="166" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579053541531" />
-    <state width="1860" height="166" key="GridCell.Tab.0.right" timestamp="1579053541531">
+    <state width="1860" height="166" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579069805214" />
+    <state width="1860" height="166" key="GridCell.Tab.0.right" timestamp="1579069805214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579025948427" />
-    <state width="1860" height="166" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579053541531" />
+    <state width="1860" height="166" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579069805214" />
   </component>
 </project>
