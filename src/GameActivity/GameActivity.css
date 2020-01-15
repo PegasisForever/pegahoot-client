@@ -5,8 +5,7 @@
     transform: translate(-50%,-50%);
 }
 
-p{
-    margin: 0 16px;
+.game-activity p{
     color: white;
 }
 

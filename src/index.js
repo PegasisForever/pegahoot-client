@@ -44,12 +44,21 @@ class App extends Component {
         }
 
         this.submitName = this.submitName.bind(this)
+        this.submitAnswer = this.submitAnswer.bind(this)
     }
 
     submitName(name) {
         this.socket.send(JSON.stringify({
-            "command": "join",
-            "name": name
+            command: "join",
+            name: name
+        }))
+    }
+
+    submitAnswer(index, answer) {
+        this.socket.send(JSON.stringify({
+            command: "submit",
+            index: index,
+            answer: answer
         }))
     }
 
@@ -74,7 +83,8 @@ class App extends Component {
                 <GameActivity
                     questionIndex={this.state.questionIndex}
                     questionText={this.state.questionText}
-                    questionSentence={this.state.questionSentence}/>
+                    questionSentence={this.state.questionSentence}
+                    onSubmit={this.submitAnswer}/>
                 <BottomBar
                     name={this.state.name}
                     score={this.state.score}/>

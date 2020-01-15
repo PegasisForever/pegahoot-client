@@ -11,7 +11,7 @@ export class GameActivity extends React.Component {
 
     render() {
         let questionSentences = this.props.questionSentence.split("__")
-        return <div className={"full-page"}>
+        return <div className={"full-page game-activity"}>
             <p className={"question-number"}>Question #{this.props.questionIndex}</p>
             <div className={"center"}>
                 <p className={"question-text"}>{this.props.questionText}</p>
@@ -24,7 +24,10 @@ export class GameActivity extends React.Component {
                     {questionSentences[1]}
                 </p>
                 <button className={"submit-button"}
-                        disabled={this.state.textInput === ""}>Submit</button>
+                        disabled={this.state.textInput === ""}
+                        onClick={()=>this.props.onSubmit(this.props.questionIndex,this.state.textInput)}>
+                    Submit
+                </button>
             </div>
         </div>
     }
