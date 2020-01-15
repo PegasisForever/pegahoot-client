@@ -25,7 +25,7 @@ export class GameActivity extends React.Component {
                 </p>
                 <button className={"submit-button"}
                         disabled={this.state.textInput === ""}
-                        onClick={()=>this.props.onSubmit(this.props.questionIndex,this.state.textInput)}>
+                        onClick={()=>this.props.onSubmit(this.props.questionIndex-1,this.state.textInput)}>
                     Submit
                 </button>
             </div>
