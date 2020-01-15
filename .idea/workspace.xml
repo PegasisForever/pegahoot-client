@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38db7156-430a-49bd-a2c7-f8bc9fed3a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pegasis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BottomBar/BottomBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/BottomBar/BottomBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameActivity/GameActivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578985635562</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add game activity, no submit">
+      <created>1579056495027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579056495027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,17 +153,18 @@
     <MESSAGE value="add submit name &amp; error text" />
     <MESSAGE value="add wait activity" />
     <MESSAGE value="rearrange files" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearrange files" />
+    <MESSAGE value="Add game activity, no submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add game activity, no submit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578985071148">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578985071148" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579056343808">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579056494805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579056343808" />
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579056494805" />
     <state width="1860" height="166" key="GridCell.Tab.0.bottom" timestamp="1579053541531">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -20,9 +20,9 @@ export class JoinActivity extends Component {
                    value={this.state.textInput}
                    onChange={(event) => this.setState({textInput: event.target.value})}/>
             <button disabled={this.state.textInput === ""}
-                    className={"submit-button"}
+                    className={"join-button"}
                     onClick={()=>this.props.onSubmit(this.state.textInput)}>
-                Submit
+                Join
             </button>
         </div>
     }
