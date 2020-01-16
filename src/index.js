@@ -9,7 +9,7 @@ import {BottomBar} from "./BottomBar/BottomBar"
 import {GameActivity} from "./GameActivity/GameActivity"
 import {GameWaitActivity} from "./GameWaitActivity/GameWaitActivity"
 
-const wsUrl = "ws://localhost:8080/client"
+const wsUrl = "ws://192.168.1.22:8080/client"
 
 class App extends Component {
     constructor(props) {

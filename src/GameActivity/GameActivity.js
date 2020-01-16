@@ -15,19 +15,24 @@ export class GameActivity extends React.Component {
             <p className={"question-number"}>Question #{this.props.questionIndex}</p>
             <div className={"center"}>
                 <p className={"question-text"}>{this.props.questionText}</p>
-                <p className={"question-sentence"}>
-                    {questionSentences[0]}
-                    <input type="text"
-                           className={"answer-input"}
-                           value={this.state.textInput}
-                           onChange={(event) => this.setState({textInput: event.target.value})}/>
-                    {questionSentences[1]}
-                </p>
-                <button className={"submit-button"}
-                        disabled={this.state.textInput === ""}
-                        onClick={()=>this.props.onSubmit(this.props.questionIndex-1,this.state.textInput)}>
-                    Submit
-                </button>
+                <form onSubmit={e => {
+                    e.preventDefault()
+                    this.props.onSubmit(this.props.questionIndex - 1, this.state.textInput)
+                }}>
+                    <p className={"question-sentence"}>
+                        {questionSentences[0]}
+                        <input type="text"
+                               className={"answer-input"}
+                               value={this.state.textInput}
+                               onChange={(event) => this.setState({textInput: event.target.value})}/>
+                        {questionSentences[1]}
+                    </p>
+                    <button className={"submit-button"}
+                            disabled={this.state.textInput === ""}
+                            type={"submit"}>
+                        Submit
+                    </button>
+                </form>
             </div>
         </div>
     }

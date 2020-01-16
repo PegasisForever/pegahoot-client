@@ -15,15 +15,20 @@ export class JoinActivity extends Component {
             <img className={"logo"} src={logo} alt="Logo"/>
             <p className={"enter-name"}>Enter your name:</p>
             <p className={"error-text"}>{this.props.errorText}</p>
-            <input type="text"
-                   className={"name-input"}
-                   value={this.state.textInput}
-                   onChange={(event) => this.setState({textInput: event.target.value})}/>
-            <button disabled={this.state.textInput === ""}
-                    className={"join-button"}
-                    onClick={()=>this.props.onSubmit(this.state.textInput)}>
-                Join
-            </button>
+            <form onSubmit={e=>{
+                e.preventDefault()
+                this.props.onSubmit(this.state.textInput)
+            }}>
+                <input type="text"
+                       className={"name-input"}
+                       value={this.state.textInput}
+                       onChange={(event) => this.setState({textInput: event.target.value})}/>
+                <button disabled={this.state.textInput === ""}
+                        className={"join-button"}
+                        type={"submit"}>
+                    Join
+                </button>
+            </form>
         </div>
     }
 }

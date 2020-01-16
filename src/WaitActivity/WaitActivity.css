@@ -5,6 +5,7 @@
 }
 
 .wait-text{
+    margin: 0;
     position: absolute;
     width: 100vw;
     top: 55%;
