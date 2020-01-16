@@ -9,7 +9,12 @@ import {BottomBar} from "./BottomBar/BottomBar"
 import {GameActivity} from "./GameActivity/GameActivity"
 import {GameWaitActivity} from "./GameWaitActivity/GameWaitActivity"
 
-const wsUrl = "ws://192.168.1.22:8080/client"
+let wsUrl
+if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+    wsUrl = "ws://localhost:5008/client"
+} else {
+    wsUrl = "wss://hoot.pegasis.site/ws/client"
+}
 
 class App extends Component {
     constructor(props) {

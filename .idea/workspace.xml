@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38db7156-430a-49bd-a2c7-f8bc9fed3a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameActivity/GameActivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameActivity/GameActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameActivity/GameActivity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinActivity/JoinActivity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WaitActivity/WaitActivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaitActivity/WaitActivity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +56,18 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -73,6 +80,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -103,7 +115,7 @@
       <workItem from="1579094806822" duration="466000" />
       <workItem from="1579105529153" duration="656000" />
       <workItem from="1579107887568" duration="1760000" />
-      <workItem from="1579141426468" duration="2774000" />
+      <workItem from="1579141426468" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="remove unused code">
       <created>1578981593839</created>
@@ -175,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579142745137</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="use enter key to submit">
+      <created>1579144715623</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579144715623</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +211,8 @@
     <MESSAGE value="add submit callback" />
     <MESSAGE value="fixed submit wring index" />
     <MESSAGE value="add line height" />
-    <option name="LAST_COMMIT_MESSAGE" value="add line height" />
+    <MESSAGE value="use enter key to submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="use enter key to submit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="149" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1579069949996">
@@ -203,29 +223,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1578985071148" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579142744724">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1579144715464">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579142744724" />
-    <state width="1860" height="166" key="GridCell.Tab.0.bottom" timestamp="1579143868204">
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579144715464" />
+    <state width="1860" height="166" key="GridCell.Tab.0.bottom" timestamp="1579147824441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579117023586" />
-    <state width="1860" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579143868204" />
-    <state width="1860" height="166" key="GridCell.Tab.0.center" timestamp="1579143868203">
+    <state width="1860" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579147824441" />
+    <state width="1860" height="166" key="GridCell.Tab.0.center" timestamp="1579147824441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579117023583" />
-    <state width="1860" height="166" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579143868203" />
-    <state width="1860" height="166" key="GridCell.Tab.0.left" timestamp="1579143868202">
+    <state width="1860" height="166" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579147824441" />
+    <state width="1860" height="166" key="GridCell.Tab.0.left" timestamp="1579147824441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579117023583" />
-    <state width="1860" height="166" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579143868202" />
-    <state width="1860" height="166" key="GridCell.Tab.0.right" timestamp="1579143868203">
+    <state width="1860" height="166" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579147824441" />
+    <state width="1860" height="166" key="GridCell.Tab.0.right" timestamp="1579147824441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579117023584" />
-    <state width="1860" height="166" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579143868203" />
+    <state width="1860" height="166" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.2400.1350@0.0.1920.1080" timestamp="1579147824441" />
   </component>
 </project>
